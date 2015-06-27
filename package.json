@@ -1,0 +1,32 @@
+{
+  "name": "sircus-components-button-fill",
+  "description": "Modifier module for manage the fill of Sircus Button components.",
+  "version": "0.0.0",
+  "homepage": "http://sircus.github.io",
+  "keywords": [
+    "scalable",
+    "design",
+    "css",
+    "cssnext",
+    "rwd"
+  ],
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/components-button-fill.git"
+  },
+  "scripts": {
+    "build": "css2scss ./index.css ./_converted.scss"
+  },
+  "dependencies": {
+    "sircus-components-button": "^0.1.0",
+    "sircus-global-property": "^0.2.0"
+  },
+  "devDependencies": {
+    "sircus-process-css2scss": "^0.2.0"
+  }
+}
