@@ -8,7 +8,6 @@
 
 /*　sircus-components-button-fill
 ======================================== */
-
 .Button--fill {
   background-color: var(--ButtonFill-bgColor);
   color: var(--ButtonFill-color);
@@ -23,11 +22,11 @@
   text-decoration: none;
 }
 
-
 .Button--fill.Button--primary {
   background-color:var(--ButtonFill-primary-bgColor);
   color:var(--ButtonFill-primary-color);
 }
+
 .Button--fill.Button--primary:hover,
 .Button--fill.Button--primary:focus,
 .Button--fill.Button--primary:active,

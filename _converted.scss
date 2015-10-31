@@ -1,15 +1,10 @@
-
-// Converted Variables
-
 $ButtonFill-color: #fff !default;
 $ButtonFill-fill: $g-gray-40 !default;
 $ButtonFill-primary-color: #fff !default;
 $ButtonFill-primary-fill: $g-primary !default;
 
-
 /*　sircus-components-button-fill
 ======================================== */
-
 .Button--fill {
   background-color: $ButtonFill-fill;
   color: $ButtonFill-color;
@@ -18,21 +13,21 @@ $ButtonFill-primary-fill: $g-primary !default;
 .Button--fill:hover,
 .Button--fill:focus,
 .Button--fill:active,
-.Button--fill.is-active{
-  background-color:transparent;
+.Button--fill.is-active {
+  background-color: transparent;
   color: $ButtonFill-fill;
   text-decoration: none;
 }
 
-
 .Button--fill.Button--primary {
-  background-color:$ButtonFill-primary-fill;
-  color:$ButtonFill-primary-color;
+  background-color: $ButtonFill-primary-fill;
+  color: $ButtonFill-primary-color;
 }
+
 .Button--fill.Button--primary:hover,
 .Button--fill.Button--primary:focus,
 .Button--fill.Button--primary:active,
-.Button--fill.Button--primary.is-active{
-  background-color:transparent;
-  color:$ButtonFill-primary-fill;
+.Button--fill.Button--primary.is-active {
+  background-color: transparent;
+  color: $ButtonFill-primary-fill;
 }
