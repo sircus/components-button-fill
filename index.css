@@ -1,36 +1,35 @@
 :root {
   --ButtonFill-color: #fff;
-  --ButtonFill-bgColor: var(--g-gray-40);
-
+  --ButtonFill-fill: #000;
   --ButtonFill-primary-color: #fff;
-  --ButtonFill-primary-bgColor: var(--g-primary);
+  --ButtonFill-primary-fill: var(--g-primary);
 }
 
 /*　sircus-components-button-fill
 ======================================== */
 .Button--fill {
-  background-color: var(--ButtonFill-bgColor);
+  background-color: var(--ButtonFill-fill);
   color: var(--ButtonFill-color);
 }
 
 .Button--fill:hover,
 .Button--fill:focus,
 .Button--fill:active,
-.Button--fill.is-active{
-  background-color:transparent;
-  color: var(--ButtonFill-bgColor);
+.Button--fill.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-fill);
   text-decoration: none;
 }
 
 .Button--fill.Button--primary {
-  background-color:var(--ButtonFill-primary-bgColor);
-  color:var(--ButtonFill-primary-color);
+  background-color: var(--ButtonFill-primary-fill);
+  color: var(--ButtonFill-primary-color);
 }
 
 .Button--fill.Button--primary:hover,
 .Button--fill.Button--primary:focus,
 .Button--fill.Button--primary:active,
-.Button--fill.Button--primary.is-active{
-  background-color:transparent;
-  color:var(--ButtonFill-primary-bgColor);
+.Button--fill.Button--primary.is-active {
+  background-color: transparent;
+  color: var(--ButtonFill-primary-fill);
 }
