@@ -1,17 +1,17 @@
 {
   "name": "sircus-components-button-fill",
-  "description": "Modifier module for manage the fill of Sircus Button components.",
+  "description": "Module For Button fill Modifier.",
   "version": "0.0.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalable",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",
